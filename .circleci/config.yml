@@ -72,7 +72,7 @@ jobs:
             echo "Deploy to S3 Successful"
   
   deploy-to-aws-cloudfront:
-   executor: app-executor 
+    executor: app-executor 
     steps:
       - checkout
       - *show-current-branch-name
